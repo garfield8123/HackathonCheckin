@@ -1,0 +1,76 @@
+.navbar-custom {
+    background-color: #1f6e32;
+    /*#003d68 and #f26531*/
+    height:50px
+}
+.navbar-nav{
+    background-color: #1f6e32;
+}
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239,183,10, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', arial, sans-serif;
+}
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color: whitesmoke;
+}
+.gap {
+    padding: 30px 30px 30px 50px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #1f6e32;
+    color: whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #1f6e32;
+    color:whitesmoke
+}
+table {
+    font-family: 'Montserrat', arial, sans-serif;
+    border-collapse: collapse;
+    width:fit-content;
+}
+td, th {
+    border: 1px solid #1f6e32;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+.droparea {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #104f59;
+    line-height: 200px;
+    text-align: center;
+}
+.footer{
+    background-color: #1f6e32;
+    color: whitesmoke;
+}
+hr.solid{
+    border-top: 2px solid whitesmoke;
+}
